@@ -47,7 +47,7 @@ Make sure you have the following installed:
 
 ### Setup Project
 ```bash
-git clone <repo-url>
+git clone https://github.com/umeshyadav7988/BharatFD_Assignment.git
 cd faq-api
 npm install
 ```
