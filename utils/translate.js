@@ -16,11 +16,11 @@ const translateText = async (text, targetLang) => {
     );
     const translation = response.data[0][0][0];
 
-    await client.set(cacheKey, translation, { EX: 86400 }); // Cache for 1 day
+    await client.set(cacheKey, translation, { EX: 86400 }); 
     return translation;
   } catch (error) {
     console.error("Translation Error:", error);
-    return text; // Fallback to original
+    return text; 
   }
 };
 
