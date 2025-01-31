@@ -72,7 +72,7 @@ npm run dev
 
 ---
 
-## 🚀 API Endpoints
+##  API Endpoints
 ### 1️⃣ Create FAQ (POST)
 ```http
 POST /api/faqs/
